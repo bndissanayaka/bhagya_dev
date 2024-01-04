@@ -4,6 +4,7 @@ import email from "../../src/assets/email.png";
 import linked from "../../src/assets/linked.png";
 import github from "../../src/assets/github.png";
 import me from "../../src/assets/bhagya2.jpg";
+import cv from "../../src/assets/DAB Nirmani-Resume.pdf";
 
 function AboutSec(props) {
   const handleDownload = () => {};
@@ -48,12 +49,7 @@ function AboutSec(props) {
             third-party integrations and databases.
           </p>
           <div className="lv-about-row2col2btn" onClick={handleDownload}>
-            <a
-              className="lv-about-row2col2btn"
-              href="./documents/DAB Nirmani-Resume.pdf"
-              title=""
-              download
-            >
+            <a className="lv-about-row2col2btn" href={cv} title="" download>
               Download Resume
             </a>
           </div>
